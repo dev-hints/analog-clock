@@ -1,0 +1,67 @@
+@media screen and (orientation:portrait) {
+    // CSS applied when the device is in portrait mode
+}
+
+@media screen and (orientation:landscape) {
+    // CSS applied when the device is in landscape mode
+}
+
+
+body{
+  background-color: skyblue;
+}
+h1{
+  text-align: center;
+  border: 2px solid black;
+  background-color: red;
+  color: white;
+}
+
+#cc{
+  position: relative;
+  margin: auto;
+  padding: 40px;
+  
+ 
+  border: 2px solid black;
+  height: 70vw;
+  width: 70vw;
+  background: url(clock.jpg) no-repeat;
+  background-size: 100%;
+ 
+}
+
+#h, #m, #s{
+  position: absolute;
+  background: red;
+  border-radius: 10px;
+  transform-origin: bottom;
+}
+
+#h{
+  width: 3%;
+  height: 20%;
+  top: 29.5%;
+  left: 49%;
+  opacity: 0.8;
+ 
+}
+
+#m{
+width: 2%;
+  height: 30%;
+  top: 20%;
+  left: 49.5%;
+  opacity: 0.8;
+  
+  
+}
+
+#s{
+width: 1%;
+  height: 38%;
+  top: 12%;
+  left: 50%;
+  opacity: 0.8;
+  
+}
